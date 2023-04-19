@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Copy Sprint Report to QFS",
+    "version": "0.1",
+     "browser_action": {
+     },
+    "content_scripts": [
+      {
+        "matches": [
+          "https://jira.control4.com/*"
+        ],
+        "js": ["jquery-3.6.4.min.js", "content.js"]
+      }
+    ]
+  }
